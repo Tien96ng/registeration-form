@@ -1,0 +1,89 @@
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    background-color: #1b1b32;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    display: block;
+}
+
+h1, p {
+    margin: 1em auto;
+    text-align: center;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 2em;
+}
+
+form {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+}
+
+label {
+    margin: 0.5em 0;
+}
+
+input[type="text"], 
+input[type="email"], 
+input[type="password"], 
+input[type="file"],
+input[type="number"],
+textarea, select {
+    margin: 10px 0 5px 0;
+    width: 100%;
+    min-height: 2em;
+    background-color: #0a0a23;
+    border: 1px solid #0a0a23;
+    color: white;
+}
+
+input[type="file"] {
+    text-align: center;
+    margin: auto;
+    top: 50%;
+    padding-top: 5px;
+}
+
+.inline
+{
+    vertical-align:middle;
+    margin: 10px
+}
+
+input[type="radio"] + span
+{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+fieldset {
+    border: none;
+    padding: 2rem 0;
+}
+
+a {
+    color: white;
+}
+
+input[type="submit"] {
+    width: 60%;
+    display: block;
+    margin: -1rem auto;
+    font-size: 1.1rem;
+    background-color: #3b3b4f;
+    border-color: white;
+    min-width: 300px;
+    color: white;
+}
+
+hr {
+    background-color: white;
+}
